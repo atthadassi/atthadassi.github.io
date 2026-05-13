@@ -4,18 +4,21 @@ title: Contact
 permalink: /contact
 ---
 
-If you wish to contact me, please send me an email with this form below, or a message through one of the social media links at the bottom:
+If you wish to contact me, please send me an email with this form below.
 
-<form action="https://formspree.io/f/mgvolgen" method="POST">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-
-    <button type="submit" style="background-color: #AD6100; border: none; color: white; padding: 8px 16px;">Send Message</button>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mjglzlgj"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
-
