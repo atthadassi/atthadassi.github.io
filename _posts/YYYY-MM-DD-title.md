@@ -1,19 +1,36 @@
 ---
 layout: post
-title: 
-author: Brazil Ariyañāṇa Bhikkhu
+title: Test 1
+author: Atthadassi
 categories: 
 tags: 
-image: 
+image: [logo-img.png]
 ---
 
-## 🇬🇧 English
----
-## 🇪🇸 Español
----
-## 🇧🇷 Português
----
+# Title
 
+this is a sentence
+
+## part 1
+
+explanation of part 1
+
+### part 1.1
+explanation of part 1.1
+
+## part 2
+### part 2.1
+explanation of 2.1
+
+List:
+- item 1
+- item 2
+- item 3
+- item 4
+
+
+
+---
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   // Add styles for collapsible TOC
