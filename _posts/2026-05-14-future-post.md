@@ -1,22 +1,15 @@
-\---
-
+---
 layout: post
-
 title: Future Post with spaces
-
 author: Atthadassi
-
 categories: 
-
 tags: 
-
-image: \[desktop.png]
-
-\---
+image: [desktop.png]
+---
 
 
 
-\# Title
+# Title
 
 
 
@@ -24,7 +17,7 @@ this is a sentence
 
 
 
-\## part 1
+## part 1
 
 
 
@@ -32,37 +25,18 @@ explanation of part 1
 
 
 
-\### part 1.1
+### part 1.1
 
 explanation of part 1.1
 
 
 
-\## part 2
+## part 2
 
-\### part 2.1
+### part 2.1
 
 explanation of 2.1
 
-
-
-List:
-
-\- item 1
-
-\- item 2
-
-\- item 3
-
-\- item 4
-
-
-
-
-
-
-
-\---
 
 <script>
 
