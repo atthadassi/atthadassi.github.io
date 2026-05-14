@@ -1,5 +1,5 @@
 # Site Build Settings
-url: "https://brazilianmonk.github.io"
+url: "https://atthadassi.github.io"
 baseurl: ""
 
 # jekyll-paginate configuration
@@ -12,9 +12,9 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "brazilian monk"
+title:		           "atthadassi"
 # description:	       ""
-author:              "Ariyañāṇa"
+author:              "atthadassi"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
