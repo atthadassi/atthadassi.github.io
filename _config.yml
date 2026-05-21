@@ -12,9 +12,25 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "atthadassi"
+title:		           "Atthadassi Bhante"
 # description:	       ""
-author:              "atthadassi"
+author:              "Bhikkhu Atthadassi"
+
+# defaults:
+ - scope:
+     path: ""
+     type: "posts"
+   values:
+     layout: "post"
+ - scope:
+     path: ""
+     type: "pages"
+   values:
+     layout: "page"
+
+# remote_theme: "mmistakes/minimal-mistakes"
+
+
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
