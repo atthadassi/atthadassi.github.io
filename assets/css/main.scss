@@ -5,7 +5,10 @@ $base-font-family: 'Roboto', sans-serif;
 $body-font-family: 'Roboto', sans-serif;
 $code-font-family: "Source Code Pro", monospace;
 
-$brand-color: black;
+$brand-color: #6b4f2a; // warm earthy brown
+$accent-color: #d4af37; // golden tone (symbolic of wisdom)
+$background-color: #fdfcf7; // soft off-white
+$text-color: #333333;
 
 $container-width: 800px;
 $tablet-width: 600px;
@@ -25,45 +28,88 @@ $pinterest-color: #bd081c;
 $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
+
+/* General body styling */
+body {
+  font-family: $body-font-family;
+  background-color: $background-color;
+  color: $text-color;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings with calm golden accent */
+h1, h2, h3 {
+  font-family: $base-font-family;
+  color: $brand-color;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  border-bottom: 2px solid $accent-color;
+  padding-bottom: 0.3em;
+}
+
+/* Links styled with gentle hover */
+a {
+  color: $accent-color;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darken($accent-color, 10%);
+}
+
+/* Form styling */
 form {
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f7f2;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: $brand-color;
 }
 
 input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 button {
-    margin-top: 15px;
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px;
+  background: $accent-color;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
 }
 
 button:hover {
-    background: #0056b3;
+  background: darken($accent-color, 10%);
 }
 
+/* Social links */
 .social-links {
-    display: inline;
+  display: inline;
+  margin-top: 20px;
 }
 
-@import "-sections-dir";
+footer {
+  text-align: center;
+  padding: 20px;
+  color: $brand-color;
+  font-style: italic;
+}
