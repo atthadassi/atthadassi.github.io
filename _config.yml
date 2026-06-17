@@ -28,8 +28,6 @@ author:              "Bhikkhu Atthadassi"
    values:
      layout: "page"
 
-# remote_theme: "mmistakes/minimal-mistakes"
-
 
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
